@@ -80,15 +80,7 @@ web/.dart_tool/
 web/.firebase/
 
 # Firebase (hosting, storage, etc.)
-firebase.json
-.firebaserc
-.firebase/
 firebase-debug.log
-
-# Firestore / Storage rules (optional to ignore)
-firestore.indexes.json
-firestore.rules
-storage.rules
 
 # Others
 .env
