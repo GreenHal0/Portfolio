@@ -39,8 +39,8 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Multi Page App',
-        theme: ThemeData(primarySwatch: Colors.blue),
+        title: 'Yanis MAQUICHON Portfolio',
+        theme: ThemeData(primarySwatch: AppColor.oliveSwatch),
         home: const MainLayout(),
       ),
     );
