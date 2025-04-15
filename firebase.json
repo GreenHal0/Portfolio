@@ -1,16 +1,4 @@
 {
-  "flutter": {
-    "platforms": {
-      "dart": {
-        "lib/firebase_options.dart": {
-          "projectId": "portfolio-ym",
-          "configurations": {
-            "web": "1:374840764900:web:0c3c14aae8d9c0deab7ff1"
-          }
-        }
-      }
-    }
-  },
   "firestore": {
     "rules": "firestore.rules",
     "indexes": "firestore.indexes.json"

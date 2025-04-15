@@ -33,6 +33,7 @@ class _AboutMePageState extends State<AboutMePage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             PageTitle(AppText.aboutMePageTitle),
+            Text("myText"),
             ...aboutMeProvider.sections.map((section) =>
               AboutMeSectionWidget(section)
             )
