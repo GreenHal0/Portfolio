@@ -33,24 +33,9 @@ class _AboutMePageState extends State<AboutMePage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             PageTitle(AppText.aboutMePageTitle),
-            Text("myText"),
             ...aboutMeProvider.sections.map((section) =>
               AboutMeSectionWidget(section)
             )
-            // ==
-            // Expanded(
-            //   child: ListView.builder(
-            //     padding: const EdgeInsets.only(left: 16),
-            //     itemCount: aboutMeProvider.sections.length,
-            //     itemBuilder: (context, index) {
-            //       print("INDEXEU : $index");
-            //       return Padding(
-            //         padding: const EdgeInsets.symmetric(vertical: 8.0),
-            //         child: AboutMeSectionWidget(aboutMeProvider.sections[index]),
-            //       );
-            //     }
-            //   ),
-            // ),
           ],
         ),
       ),
